@@ -9,7 +9,7 @@ const SongList = ({ songs }) => {
 
 
     return (
-        <ol>
+        <ol className='list'>
             {songNodes}
         </ol>
     )
